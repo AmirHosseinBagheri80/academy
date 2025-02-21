@@ -2,7 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
 courses=[
-    {"id":1,"name":"python","teacher":"AR"}
+    {"id":1,"name":"python","teacher":"AR"},
+    {"id":2,"name":"django","teacher":"AR"}
 ]
 def course_list(request):
     data=""
